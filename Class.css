@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    /*height: 100vh;*/
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    /*background-color: gray;*/
+}
+#container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+#heading_chose{
+    position: absolute;
+    left: 28.19%;
+    top: 12.3%;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 156px;
+
+
+}
+#class_dropdown{
+    position: absolute;
+    background:#FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    width: 605px;
+    height: 96px;
+    font-size: 20px;
+    text-align: center;
+    top: 30%;
+    left: 27%;
+}
+#continue_button{
+    /*transform: translate(-50%,-50%);*/
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    width: 605px;
+    height: 65px;
+    transition-duration: 0.4s;
+}
+#continue_button:hover{
+    background-color: #2691d9;
+}

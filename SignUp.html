@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up Page</title>
+    <style>
+        .errorMessage{color: red;}
+    </style>
+    <script src="SignUp.js"></script>
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+<div class="container">
+<h1><b>Sign Up</b></h1>
+
+<form id="Sign-Up Info">
+    <div id="signUp_form">
+<!--    <fieldset>-->
+        <div class="text_field">
+
+            <input type="text" required id="user" name="user">
+            <span></span>
+            <label>*Username</label>
+            <p id="userName">
+
+            </p>
+        </div><!--end text_field-->
+        <div class="text_field">
+        <div class="text_field">
+
+            <input type="text" required id="first" name="first">
+            <span></span>
+            <label>*First name</label>
+            <p id="FirstName">
+                <!--            <label for="first">*First name</label>-->
+                <!--            <input type="text" id="first" name="first">-->
+            </p>
+        </div><!--end text_field-->
+        <div class="text_field">
+
+            <input type="text" required id="last" name="last">
+            <span></span>
+            <label>*Last name</label>
+            <p id="LastName">
+                <!--            <label for="last">*Last name</label>-->
+                <!--            <input type="text" id="last" name="last">-->
+            </p>
+        </div><!--end text_field-->
+        <div class="text_field">
+
+            <input type="text" required id="email" name="email">
+            <span></span>
+            <label>*Email</label>
+            <p id="Email">
+                <!--            <label for="email">*Email</label>-->
+                <!--            <input type="text" id="email" name="email">-->
+            </p>
+        </div><!--end text_field-->
+        <div class="text_field">
+
+            <input type="text" required id="phone" name="phone">
+            <span></span>
+            <label>*Phone number</label>
+            <p id="Number">
+                <!--            <label for="phone">*Phone Number</label>-->
+                <!--            <input type="text" id="phone" name="phone">-->
+            </p>
+        </div><!--end text_field-->
+        <div class="text_field">
+
+            <input type="password" required id="pass" name="pass">
+            <span></span>
+            <label>*Password</label>
+            <p id="Password">
+                <!--            <label for="pass">*Password</label>-->
+                <!--            <input type="password" id="pass" name="pass">-->
+            </p>
+        </div><!--end text_field-->
+        <div class="text_field">
+
+            <input type="password" required id="confirm" name="confirm">
+            <span></span>
+            <label>*Confirm Password</label>
+            <p id="Confirm">
+                <!--            <label for="confirm">*Confirm Password</label>-->
+                <!--            <input type="password" id="confirm" name="confirm">-->
+            </p>
+        </div><!--end text_field-->
+        <input onCLick="validate()" type="button" id="continue" name="continue" value="Continue"/>
+        <p id="required_space">*Required Fields</p>
+<!--    </fieldset>-->
+    </div><!-- end signUp_form -->
+</form>
+<script type="module" src="SignUp.js"></script>
+</div><!--end container -->
+</body>
+</html>

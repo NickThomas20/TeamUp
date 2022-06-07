@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="SkillSelection.js"></script>
+    <link rel="stylesheet" href="SkillSelection.css">
+    <link rel="stylesheet" href="ProfileIcon.css">
+    <meta charset="UTF-8">
+    <title>SelectPage</title>
+</head>
+
+<body>
+    <h1 id="main_title">Please Select Skills Below</h1>
+    <div id="selection_webtype">
+        <label for="front-backend" id="front-backend">Select Type of Development</label>
+        <select id="choose_type" onchange="showHide()">
+            <option value="choose">choose below</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+        </select>
+    </div>
+    <!--end first select div-->
+    <div id="frontend_selection" style="display: none">
+        <label for="frontend_lang" id="select_statementFront">Select Known Languages</label>
+        <select id="frontend_lang" multiple>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+            <option value="React">React</option>
+            <option value="Angular">Angular</option>
+            <option value="JQuery">JQuery</option>
+        </select>
+    </div><!-- end front end language div -->
+    <div id="backend_selection" style="display: none">
+        <label for="backend_lang" id="select_statementBack">Select Known Languages</label>
+        <select id="backend_lang" multiple>
+            <option value="Python">Python</option>
+            <option value="PHP">PHP</option>
+            <option value="Java">Java</option>
+            <option value="Ruby">Ruby</option>
+            <option value="Golang">Golang</option>
+            <option value="C#">C#</option>
+        </select>
+    </div><!-- end back end language div -->
+    <a href="teamselect.html"> <button id="teams_button">Continue</button></a>
+
+    <a href="EditAccount.html"><button id="account">Account</button></a>
+</body>
+
+</html>

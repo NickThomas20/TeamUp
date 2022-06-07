@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Account</title>
+    <style>
+        .errorMessage{color: red;}
+    </style>
+    <script src="EditAccount.js"></script>
+    <link rel="stylesheet" href="EditAccount.css">
+</head>
+<body onload="displayInfo()">
+<div class="container">
+    <h1>Account Information</h1>
+    <div class="text_container">
+    <p id="user"></p>
+    <p id="firstname"></p>
+    <p id="lastname"></p>
+    <p id="email"></p>
+    <p id="number"></p>
+    </div>
+
+    <form id="ChangeInfo">
+        <div class="text_field">
+        <input type="text" required id="usern" name="usern">
+        <span></span>
+            <label>Change Username: </label>
+        <p id="userName"></p>
+        </div>
+
+        <div class="text_field">
+        <input type="password" required id="pass" name="pass">
+        <span></span>
+            <label>Change Password: </label>
+        <p id="Password"></p>
+        </div>
+
+        <div class="text_field">
+        <input type="password" required id="confirmp" name="confirmp">
+        <span></span>
+            <label>Confirm Password Change: </label>
+        <p id="Confirm"></p>
+        </div>
+
+        <input onCLick="validate(); displayInfo()" type="button" id="continue" name="continue" value="Confirm Changes"/>
+    </form>
+
+    <p id="checkSuccess"> </p>
+</div>
+</body>
+</html>

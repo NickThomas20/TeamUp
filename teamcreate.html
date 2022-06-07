@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="teamcreate.css">
+  <link rel="stylesheet" href="ProfileIcon.css">
+  <title>TeamUp</title>
+  <script>
+    function showUser(){
+      document.getElementById("Selection_self").innerHTML = "User: " + localStorage["username"];
+    }
+      function sendAlert(){
+      alert("Email has been sent")
+    }
+
+  </script>
+</head>
+
+<body  onload="showUser()">
+
+<div class="container">
+  <div class="Title">
+    <h1 style="text-align: center;"> SE 319 </h1>
+
+  </div>
+<form>
+  <div class="dropdown">
+    <p id="TeamName">Team Name: <input type="text"></p>
+    <br>
+    <p id="Selection_self"> </p>
+    <br>
+    <label for="programming-languages">Choose A Front End Programming Language: </label>
+      <div class="custom-select">
+
+        <select name="programming-languages" id="programming-languages">
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JS</option>
+          <option>React</option>
+          <option>Angular</option>
+          <option>JQuery</option>
+        </select>
+  </div>
+    <br>
+    <label for="programming-languages">Choose A Front End Programming Language: </label>
+    <div class="custom-select">
+
+      <select name="programming-languages" id="programming-languages">
+        <option>HTML</option>
+        <option>CSS</option>
+        <option>JS</option>
+        <option>React</option>
+        <option>Angular</option>
+        <option>JQuery</option>
+      </select>
+    </div>
+    <br>
+    <label for="programming-languages">Choose A Back End Programming Language: </label>
+    <div class="custom-select">
+      <select name="programming-languages" id="programming-languages">
+        <option>Python</option>
+        <option>PHP</option>
+        <option>Java</option>
+        <option>Ruby</option>
+        <option>Golang</option>
+        <option>C#</option>
+      </select>
+   </div>
+    <br>
+    <label for="programming-languages">Choose A Back End Programming Language: </label>
+    <div class="custom-select">
+
+      <select name="programming-languages" id="programming-languages">
+        <option>Python</option>
+        <option>PHP</option>
+        <option>Java</option>
+        <option>Ruby</option>
+        <option>Golang</option>
+        <option>C#</option>
+      </select>
+    </div>
+    <br>
+    <p id="TeamBio">Team Bio <input type="text"></p>
+    <br>
+
+  </div><!--end dropdown-->
+</form><!--end form-->
+  <button id="sent_email" onclick="sendAlert()">Send email Confirmation</button>
+  <a href="teamselect.html"> <button id="back_button"> Back to Teams </button></a>
+</div><!--end container-->
+<a href="EditAccount.html"><button id="account">Account</button></a>
+</body>
+
+</html>

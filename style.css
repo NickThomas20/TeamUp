@@ -1,0 +1,103 @@
+.view {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: none;
+}
+
+.view>div {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0px;
+}
+
+.frame {
+    width: inherit;
+    height: inherit;
+}
+
+.default {
+    /* Off white */
+    background-color: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /*background: linear-gradient(120deg, #2980b9, #8e44ad);*/
+    background-color: #f4f4f4;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.centered {
+    /* Center text, and auto center other things */
+    text-align: center;
+    margin: 0 auto;
+}
+
+.centerBox {
+    /* For the box in the center of the slides between the buttons */
+    margin: auto;
+
+}
+
+.up {
+    width: auto;
+    height: 25%;
+}
+
+.down {
+    width: auto;
+    height: 12%;
+    /* Flip arrow */
+    transform: scaleY(-1);
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 0;
+}
+
+h2 {
+    padding-bottom: 50px;
+    font-size: 48px;
+}
+
+p {
+    font-size: 24px;
+}
+
+
+
+#startlink {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#startlink:hover {
+    text-decoration: underline;
+}
+
+#startlink:active {
+    color: black;
+}
+
+#startlink:visited {
+    color: black;
+}
+
+#startlink {
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+

@@ -1,0 +1,94 @@
+body{
+    /*background: #616161;*/
+}
+
+#main_title{
+    position: absolute;
+    left: 28.19%;
+    right: 15.49%;
+    /*top: 12.3%;*/
+    /*bottom: 64.55%;*/
+
+    font-family: sans-serif;
+    /*font-style: normal;*/
+    font-weight: 400;
+    font-size: 50px;
+    /*line-height: 50px;*/
+
+    color: #000000;
+
+}
+#choose_type{
+    position: absolute;
+    left: 28.19%;
+    right: 25%;
+    top: 15%;
+    bottom: 80%;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    text-align-last: center;
+}
+#front-backend{
+    position: absolute;
+    left: 12%;
+    right: 25%;
+    top: 16%;
+    bottom: 80%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#frontend_lang{
+    position: absolute;
+    left: 28.19%;
+    right: 25%;
+    top: 35%;
+    bottom: 50%;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    text-align-last: center;
+}
+#select_statementFront{
+    position: absolute;
+    left: 12%;
+    right: 25%;
+    top: 36%;
+    bottom: 50%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#backend_lang{
+    position: absolute;
+    left: 28.19%;
+    right: 25%;
+    top: 35%;
+    bottom: 50%;
+
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    text-align-last: center;
+}
+#select_statementBack{
+    position: absolute;
+    left: 12%;
+    right: 25%;
+    top: 36%;
+    bottom: 50%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#teams_button{
+    position: absolute;
+    top: 85%;
+    left: 28.19%;
+    right: 25%;
+    height: 65px;
+    transition-duration: 0.4s;
+}
+#teams_button:hover{
+    background-color: #2691d9;
+}
